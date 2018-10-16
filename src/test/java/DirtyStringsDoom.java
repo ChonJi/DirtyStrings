@@ -4,7 +4,7 @@ import selectors.Locator;
 
 public class DirtyStringsDoom extends DoomExecutor {
 
-    private static final String MY_URL = "https://www.google.pl/";
+    private final String MY_URL = "https://www.google.pl/";
 
     @Test
     public void buildDoom() {
